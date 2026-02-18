@@ -131,7 +131,9 @@
             </div>
             <div class="hidden md:flex space-x-8 text-sm font-medium">
                 <a href="#about" class="nav-link text-gray-300 hover:text-white transition">About</a>
+                <a href="#education" class="nav-link text-gray-300 hover:text-white transition">Education</a>
                 <a href="#skills" class="nav-link text-gray-300 hover:text-white transition">Skills</a>
+                <a href="#services" class="nav-link text-gray-300 hover:text-white transition">Services</a>
                 <a href="#projects" class="nav-link text-gray-300 hover:text-white transition">Projects</a>
                 <a href="#contact" class="nav-link text-gray-300 hover:text-white transition">Contact</a>
             </div>
@@ -278,6 +280,71 @@
         </div>
     </section>
 
+    <section id="education" class="py-32 bg-black/50">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="text-center mb-16 reveal">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6">Education</h2>
+                <p class="text-gray-400 text-lg">My academic journey</p>
+                <div class="w-20 h-1 bg-gradient-to-r from-[#02569B] to-[#5FC9F8] mx-auto rounded-full mt-6"></div>
+            </div>
+
+            <div class="education-card rounded-3xl p-8 md:p-10 reveal relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-32 h-32 bg-[#00BFA6]/10 rounded-full blur-3xl"></div>
+
+                <div class="relative z-10">
+                    <div class="flex flex-col md:flex-row gap-6 items-start">
+                        <div
+                            class="w-16 h-16 rounded-2xl bg-[#00BFA6]/20 flex items-center justify-center flex-shrink-0">
+                            <i data-lucide="graduation-cap" class="w-8 h-8 text-[#00BFA6]"></i>
+                        </div>
+
+                        <div class="flex-1">
+                            <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4">
+                                <div>
+                                    <h3 class="text-2xl font-bold text-white">Bachelor of Computer Science</h3>
+                                    <p class="text-[#5FC9F8] text-lg mt-1">Software Engineering</p>
+                                </div>
+                                <span
+                                    class="px-4 py-2 rounded-full bg-[#00BFA6]/20 text-[#00BFA6] text-sm font-medium w-fit">
+                                    Expected 2027
+                                </span>
+                            </div>
+
+                            <p class="text-gray-400 leading-relaxed mb-6">
+                                Currently pursuing a degree in Computer Science with a focus on software engineering
+                                principles,
+                                algorithms, data structures, and mobile application development. Gaining strong
+                                foundation
+                                in
+                                programming and system design.
+                            </p>
+
+                            <div class="grid md:grid-cols-2 gap-4">
+                                <div class="flex items-center gap-3 text-gray-300">
+                                    <i data-lucide="book-open" class="w-5 h-5 text-[#5FC9F8]"></i>
+                                    <span>Data Structures & Algorithms</span>
+                                </div>
+                                <div class="flex items-center gap-3 text-gray-300">
+                                    <i data-lucide="database" class="w-5 h-5 text-[#5FC9F8]"></i>
+                                    <span>Database Management Systems</span>
+                                </div>
+                                <div class="flex items-center gap-3 text-gray-300">
+                                    <i data-lucide="smartphone" class="w-5 h-5 text-[#5FC9F8]"></i>
+                                    <span>Mobile Application Development</span>
+                                </div>
+                                <div class="flex items-center gap-3 text-gray-300">
+                                    <i data-lucide="git-branch" class="w-5 h-5 text-[#5FC9F8]"></i>
+                                    <span>Software Engineering</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <!-- Skills Section -->
     <section id="skills" class="py-32 bg-black/50">
         <div class="max-w-7xl mx-auto px-6">
@@ -395,6 +462,96 @@
                         <h3 class="text-xl font-bold">Testing</h3>
                     </div>
                     <p class="text-gray-400 text-sm">Unit tests, widget tests, and integration testing</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-32">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16 reveal">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6">Offered <span class="gradient-text">Services</span></h2>
+                <p class="text-gray-400 text-lg">Professional Flutter development services I provide</p>
+                <div class="w-20 h-1 bg-gradient-to-r from-[#02569B] to-[#5FC9F8] mx-auto rounded-full mt-6"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Service 1 -->
+                <div class="service-card rounded-2xl p-8 reveal group">
+                    <div
+                        class="w-14 h-14 rounded-xl bg-[#02569B]/20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <i data-lucide="smartphone" class="w-7 h-7 text-[#5FC9F8]"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Cross-Platform App Development</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Build high-quality iOS and Android applications from a single codebase using Flutter,
+                        ensuring consistent performance and native-like experience across all devices.
+                    </p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card rounded-2xl p-8 reveal group" style="transition-delay: 100ms;">
+                    <div
+                        class="w-14 h-14 rounded-xl bg-purple-500/20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <i data-lucide="layout" class="w-7 h-7 text-purple-400"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">UI/UX Implementation</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Transform Figma/Adobe XD designs into pixel-perfect Flutter interfaces with smooth animations,
+                        custom transitions, and responsive layouts that adapt to any screen size.
+                    </p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card rounded-2xl p-8 reveal group" style="transition-delay: 200ms;">
+                    <div
+                        class="w-14 h-14 rounded-xl bg-orange-500/20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <i data-lucide="flame" class="w-7 h-7 text-orange-400"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Firebase Integration</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Implement complete backend solutions using Firebase including authentication, Cloud Firestore,
+                        real-time database, cloud functions, push notifications, and cloud storage.
+                    </p>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card rounded-2xl p-8 reveal group">
+                    <div
+                        class="w-14 h-14 rounded-xl bg-green-500/20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <i data-lucide="refresh-cw" class="w-7 h-7 text-green-400"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">API Integration</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Connect your app to RESTful APIs and third-party services, handle data serialization with JSON,
+                        implement authentication flows, and manage network states efficiently.
+                    </p>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="service-card rounded-2xl p-8 reveal group" style="transition-delay: 100ms;">
+                    <div
+                        class="w-14 h-14 rounded-xl bg-pink-500/20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <i data-lucide="zap" class="w-7 h-7 text-pink-400"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">App Maintenance & Updates</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Provide ongoing support including bug fixes, Flutter version upgrades, performance optimization,
+                        adding new features, and ensuring compatibility with latest OS versions.
+                    </p>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="service-card rounded-2xl p-8 reveal group" style="transition-delay: 200ms;">
+                    <div
+                        class="w-14 h-14 rounded-xl bg-cyan-500/20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <i data-lucide="package" class="w-7 h-7 text-cyan-400"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">App Publishing</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Handle the complete app store submission process including Google Play Store and Apple App Store
+                        setup, app signing, store listing optimization, and compliance requirements.
+                    </p>
                 </div>
             </div>
         </div>
